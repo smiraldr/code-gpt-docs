@@ -31,3 +31,15 @@ If you want to remove your API Key from CodeGPT, click on the provider box and c
 </p>
 
 :::
+
+## Example: IO Intelligence (io.net)
+
+To connect [IO Intelligence](https://io.net) as a Custom provider:
+
+- `Model`: an available model id, for example `meta-llama/Llama-3.3-70B-Instruct` (see the model list at `https://api.intelligence.io.solutions/api/v1/models`)
+- `API Key`: your IO Intelligence API key
+- `Custom Link` (completion endpoint): `https://api.intelligence.io.solutions/api/v1/chat/completions`
+
+:::note Completion endpoint
+Use the full completion endpoint, not the registration page. IO Intelligence serves the OpenAI-compatible Chat Completions API.
+:::
