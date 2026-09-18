@@ -4,7 +4,7 @@ sidebar_position: 17
 
 # Custom
 
-This option allows you to choose a provider. All you need to connect is the API key and the provider's Custom Link, commonly the registration link.
+This option allows you to choose a provider. All you need to connect is the API key and the provider's Custom Link (completion endpoint), commonly the registration link.
 
 ## Connect your Provider account
 - Go to VSCode and choose `Custom` as `Provider`
@@ -36,10 +36,10 @@ If you want to remove your API Key from CodeGPT, click on the provider box and c
 
 To connect [IO Intelligence](https://io.net) as a Custom provider:
 
-- `Model`: an available model id, for example `meta-llama/Llama-3.3-70B-Instruct` (see the model list at `https://api.intelligence.io.solutions/api/v1/models`)
-- `API Key`: your IO Intelligence API key
+- `Model`: an available model id, for example `meta-llama/Llama-3.3-70B-Instruct` (see the model list at https://api.intelligence.io.solutions/api/v1/models)
+- `API Key`: your IO Intelligence API key, from https://io.net
 - `Custom Link` (completion endpoint): `https://api.intelligence.io.solutions/api/v1/chat/completions`
 
 :::note Completion endpoint
-Use the full completion endpoint, not the registration page. IO Intelligence serves the OpenAI-compatible Chat Completions API.
+For OpenAI-compatible providers, the Custom Link is the provider's completion endpoint. IO Intelligence serves the OpenAI-compatible Chat Completions API.
 :::
