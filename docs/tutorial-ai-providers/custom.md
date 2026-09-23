@@ -4,7 +4,7 @@ sidebar_position: 17
 
 # Custom
 
-This option allows you to choose a provider. All you need to connect is the API key and the provider's Custom Link (completion endpoint), commonly the registration link.
+This option allows you to choose a provider. All you need to connect is the API key and the provider's Custom Link (completion endpoint).
 
 ## Connect your Provider account
 - Go to VSCode and choose `Custom` as `Provider`
