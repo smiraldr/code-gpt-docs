@@ -36,8 +36,8 @@ If you want to remove your API Key from CodeGPT, click on the provider box and c
 
 To connect [IO Intelligence](https://io.net) as a Custom provider:
 
-- `Model`: an available model id, for example `meta-llama/Llama-3.3-70B-Instruct` (see the model list at https://api.intelligence.io.solutions/api/v1/models)
-- `API Key`: your IO Intelligence API key, from https://io.net
+- `Model`: an available model id, for example `meta-llama/Llama-3.3-70B-Instruct` (see the [model list](https://api.intelligence.io.solutions/api/v1/models))
+- `API Key`: your IO Intelligence API key, from [io.net](https://io.net)
 - `Custom Link` (completion endpoint): `https://api.intelligence.io.solutions/api/v1/chat/completions`
 
 :::note Completion endpoint

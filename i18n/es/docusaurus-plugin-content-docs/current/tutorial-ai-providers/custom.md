@@ -4,7 +4,7 @@ sidebar_position: 17
 
 # Personalizado/Custom
 
-Esta opción te permite elegir un proveedor. Todo lo que necesitas para conectarte es la clave API y el enlace personalizado del proveedor, comúnmente el enlace de registro.
+Esta opción te permite elegir un proveedor. Todo lo que necesitas para conectarte es la clave API y el enlace personalizado del proveedor (endpoint de completion).
 
 ## Conectar tu cuenta de Proveedor
 
@@ -36,8 +36,8 @@ Si deseas eliminar tu clave API de CodeGPT, haz clic en el cuadro del proveedor 
 
 Para conectar [IO Intelligence](https://io.net) como proveedor Custom:
 
-- `Model`: un id de modelo disponible, por ejemplo `meta-llama/Llama-3.3-70B-Instruct` (consulta la lista de modelos en https://api.intelligence.io.solutions/api/v1/models)
-- `API Key`: tu clave de API de IO Intelligence, obtenida en https://io.net
+- `Model`: un id de modelo disponible, por ejemplo `meta-llama/Llama-3.3-70B-Instruct` (consulta la [lista de modelos](https://api.intelligence.io.solutions/api/v1/models))
+- `API Key`: tu clave de API de IO Intelligence, obtenida en [io.net](https://io.net)
 - `Enlace personalizado` (endpoint de completion): `https://api.intelligence.io.solutions/api/v1/chat/completions`
 
 :::note Endpoint de completion

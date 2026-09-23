@@ -4,7 +4,7 @@ sidebar_position: 17
 
 # Custom
 
-Esta opção permite que você escolha um provedor. Tudo o que você precisa para se conectar é a chave da API e o Link Personalizado do provedor, comumente o link de registro.
+Esta opção permite que você escolha um provedor. Tudo o que você precisa para se conectar é a chave da API e o Link Personalizado do provedor (endpoint de completion).
 
 ## Conecte sua conta do Provider
 - Vá para o VSCode e escolha `Custom` como `Provider`
@@ -35,8 +35,8 @@ Se você quiser remover sua API Key do CodeGPT, clique na caixa do provedor e cl
 
 Para conectar o [IO Intelligence](https://io.net) como provedor Custom:
 
-- `Model`: um id de modelo disponível, por exemplo `meta-llama/Llama-3.3-70B-Instruct` (veja a lista de modelos em https://api.intelligence.io.solutions/api/v1/models)
-- `API Key`: sua chave de API do IO Intelligence, obtida em https://io.net
+- `Model`: um id de modelo disponível, por exemplo `meta-llama/Llama-3.3-70B-Instruct` (veja a [lista de modelos](https://api.intelligence.io.solutions/api/v1/models))
+- `API Key`: sua chave de API do IO Intelligence, obtida em [io.net](https://io.net)
 - `Link Personalizado` (endpoint de completion): `https://api.intelligence.io.solutions/api/v1/chat/completions`
 
 :::note Endpoint de completion
